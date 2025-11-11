@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo de Média</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Média</h1>
+
+    <div class="form-group">
+      <label for="p1">Nota P1:</label>
+      <input type="number" id="p1" placeholder="Digite a nota da P1" min="0" max="10" step="0.1">
+    </div>
+
+    <div class="form-group">
+      <label for="p2">Nota P2:</label>
+      <input type="number" id="p2" placeholder="Digite a nota da P2" min="0" max="10" step="0.1">
+    </div>
+
+    <div class="form-group">
+      <label for="pim">Nota PIM:</label>
+      <input type="number" id="pim" placeholder="Digite a nota do PIM" min="0" max="10" step="0.1">
+    </div>
+
+    <button onclick="calcularMedia()">Calcular Média</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
