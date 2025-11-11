@@ -24,8 +24,3 @@ A média é calculada considerando pesos diferentes para cada nota:
 3. O sistema exibirá a média final e a situação do aluno:
    - ✅ **Aprovado** (média ≥ 7)   
    - ❌ **Reprovado** (média < 7)
-
----
-
-## 📂 **Estrutura do Projeto**
-
