@@ -13,7 +13,7 @@ A média é calculada considerando pesos diferentes para cada nota:
 - **PIM:** peso 2  
 
 ### 📐 Fórmula:
-(P1 * 4) + (P2 * 4) + (PIM * 2)/10
+((P1 * 4) + (P2 * 4) + (PIM * 2))/10
 
 ---
 
